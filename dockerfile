@@ -1,10 +1,16 @@
-FROM python:3.12-slim
+FROM python:3.10.12-slim
+
+
+# Allow statements and log messages to immediately appear in the logs
+ENV PYTHONUNBUFFERED True
+
+ENV APP_HOME /app
 
 # Set the working directory
 WORKDIR /app
-
+WORKDIR $APP_HOME
+COPY . ./
 # Copy the current directory contents into the container at /app
-COPY . /app
 
 # Install required packages
 RUN apt-get update && apt-get install -y python3-distutils
