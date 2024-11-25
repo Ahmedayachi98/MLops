@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/642312011500796061/29cbf7a1e652413ba47d76490f54d530/artifacts
+end_time: 1732216218555
+entry_point_name: ''
+experiment_id: '642312011500796061'
+lifecycle_stage: active
+run_id: 29cbf7a1e652413ba47d76490f54d530
+run_name: big-shoat-885
+run_uuid: 29cbf7a1e652413ba47d76490f54d530
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732216204362
+status: 3
+tags: []
+user_id: DELL
